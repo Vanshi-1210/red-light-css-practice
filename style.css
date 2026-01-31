@@ -1,7 +1,31 @@
-#outer{
-    margin-left: 500px ;
-    margin-top: 50px;
-    height:500px;
-    background-color: black;
-    width: 200px;
+
+#outer {
+  width: 200px;
+  height: 500px;
+  background-color: black;
+
+  padding-top: 30px;      
+  padding-bottom: 30px;
+  margin-left: 500px;
+  border-radius: 20px;
+}
+
+#first, #second, #third {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  margin: 20px auto;    
+}
+
+#first {
+  background-color: red;
+}
+
+#second {
+  background-color: yellow;
+}
+
+#third {
+  background-color: green;
 }
